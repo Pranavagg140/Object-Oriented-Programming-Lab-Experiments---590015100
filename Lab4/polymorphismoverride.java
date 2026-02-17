@@ -10,7 +10,7 @@ class BMW extends Subject {
     }
 
     int display() {
-        Subject v = new BMW();
+        Subject v = new Subject();
         return v.sum(4, 5);
     }
 }
