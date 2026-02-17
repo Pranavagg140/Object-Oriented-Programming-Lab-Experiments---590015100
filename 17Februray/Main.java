@@ -16,7 +16,7 @@ class Employee {
         this.age = age;
 
         if (salary < 150000) {
-            throw new IllegalArgumentException("Salary must be at least 15000");
+            throw new IllegalArgumentException("Salary must be at least 150000");
         }
         this.salary = salary;
     }
